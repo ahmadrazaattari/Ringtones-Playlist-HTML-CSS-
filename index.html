@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ringtones Playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-10 py-8 rounded-xl bg-card-dark shadow-2xl border border-primary">
+            <h1 class="text-4xl font-extrabold text-white mb-2 tracking-wider">Turkish Vault: 2025 Collection</h1>
+            <p class="text-lg text-black-100 max-w-2xl mx-auto">A selection of 12 exclusive ringtones, powered by HTML's native audio controls.</p>
+        </header>
+
+        <!-- Playlist Grid/List Container -->
+        <div class="space-y-4">
+
+            <!-- Title Row (Aesthetic) -->
+            <div class="hidden sm:grid grid-cols-12 text-sm font-semibold text-black-100 uppercase tracking-wider px-6 pb-2 border-b border-gray-700">
+                <div class="col-span-1">#</div>
+                <div class="col-span-4">Track Name</div>
+                <div class="col-span-2">Duration</div>
+                <div class="col-span-5">Player Controls (Native HTML)</div>
+            </div>
+
+            <!-- Ringtone Item 1 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">01</div>
+                <div class="col-span-4 font-medium">Gonul Dagi Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:34</div>
+                <audio controls class="col-span-5"><source src="./Audios/Gonul Dagi.mp3" type="audio/mpeg"></audio>
+            </div>
+
+            <!-- Ringtone Item 2 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">02</div>
+                <div class="col-span-4 font-medium">İbn-i Sina Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">2:11</div>
+                <audio controls class="col-span-5"><source src="./Audios/İbn-i Sina.mp3" type="audio/mpeg"></audio>
+            </div>
+
+            <!-- Ringtone Item 3 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">03</div>
+                <div class="col-span-4 font-medium">Aşkın Yolculuğu Hacı Bayram-ı Veli Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:53</div>
+                <audio controls class="col-span-5"><source src="./Audios/Aşkın Yolculuğu Hacı Bayram-ı Veli.mp3" type="audio/mpeg"></audio>
+            </div>
+            
+            <!-- Ringtone Item 4 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">04</div>
+                <div class="col-span-4 font-medium">Dayton Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">0:53</div>
+                <audio controls class="col-span-5"><source src="./Audios/Dayton.mp3" type="audio/mpeg"></audio>
+            </div>
+            
+            <!-- Ringtone Item 5 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">05</div>
+                <div class="col-span-4 font-medium">Hay Sultan Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">3:06</div>
+                <audio controls class="col-span-5"><source src="./Audios/Hay Sultan.mp3" type="audio/mpeg"></audio>
+            </div>
+
+            <!-- Ringtone Item 6 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">06</div>
+                <div class="col-span-4 font-medium">Kuruluş Orhan Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:22</div>
+                <audio controls class="col-span-5"><source src="./Audios/Kuruluş Orhan.mp3" type="audio/mpeg"></audio>
+            </div>
+            
+            <!-- Ringtone Item 7 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">07</div>
+                <div class="col-span-4 font-medium">Mevlânâ Celâleddîn-i Rûmî Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:33</div>
+                <audio controls class="col-span-5"><source src="./Audios/Mevlânâ Celâleddîn-i Rûmî.mp3" type="audio/mpeg"></audio>
+            </div>
+
+            <!-- Ringtone Item 8 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">08</div>
+                <div class="col-span-4 font-medium">Mucize Doktor Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:53</div>
+                <audio controls class="col-span-5"><source src="./Audios/Mucize Doktor.mp3" type="audio/mpeg"></audio>
+            </div>
+            
+            <!-- Ringtone Item 9 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">09</div>
+                <div class="col-span-4 font-medium">VEFA SULTAN Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:35</div>
+                <audio controls class="col-span-5"><source src="./Audios/VEFA SULTAN.mp3" type="audio/mpeg"></audio>
+            </div>
+
+            <!-- Ringtone Item 10 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">10</div>
+                <div class="col-span-4 font-medium">Uyanış Büyük Selçuklu Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:58</div>
+                <audio controls class="col-span-5"><source src="./Audios/Uyanış Büyük Selçuklu.mp3" type="audio/mpeg"></audio>
+            </div>
+            
+            <!-- Ringtone Item 11 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">11</div>
+                <div class="col-span-4 font-medium">TEŞKİLAT Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">3:14</div>
+                <audio controls class="col-span-5"><source src="./Audios/TEŞKİLAT.mp3" type="audio/mpeg"></audio>
+            </div>
+
+            <!-- Ringtone Item 12 -->
+            <div class="ringtone-item bg-card-dark p-4 rounded-lg flex flex-col sm:grid sm:grid-cols-12 gap-2 items-center text-white">
+                <div class="col-span-1 text-primary font-bold">12</div>
+                <div class="col-span-4 font-medium">Payitaht Abdülhamid Official Soundtrack</div>
+                <div class="col-span-2 text-white-100 text-sm">1:47</div>
+                <audio controls class="col-span-5"><source src="./Audios/Payitaht Abdülhamid.mp3" type="audio/mpeg"></audio>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-10 text-center text-black-100 text-sm">
+            <p>Built with pure HTML and CSS. Functionality provided by the native HTML &lt;audio&gt; element.</p>
+        </footer>
+
+    </div>
+    
+    <!-- Initialize Lucide Icons (though none were used in this specific final design) -->
+    <script>
+        lucide.createIcons();
+    </script>
+    
+</body>
+</html>
